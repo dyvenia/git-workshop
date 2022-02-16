@@ -22,3 +22,4 @@ oh god what do i do
 - i want to pull someones pr (both)
 - i want to push a change but i forgor to create a branch
 - merge errors
+- make an example of crap prs and make them repair them 
