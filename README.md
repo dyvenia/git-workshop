@@ -1,29 +1,24 @@
 # git-workshop
 A simple repository for Git workshop
 
-### Fork people 🍴
-- merge
-### Internal people 🌟
-- rebase
-
-### For all
-- add/commit/add branch
-- prs how to
-- * never push to main
-- * kiss
-- * naming conventions
-- useful commands
-- * status
-- * stash
-- * delete local branches
-- SSH
-
-exercises
-- fork with branch, add, commit, pr, merge, push
-- clone with branch, add, commit, pr, rebase, push
-
-oh god what do i do
-- i want to pull someones pr (both)
-- i want to push a change but i forgor to create a branch
-- merge errors
-- make an example of crap prs and make them repair them 
+Exercises:
+1. Fork the repository
+  * Make a branch
+  * Make some changes
+  * Stage your changes 
+  * Commit those changes
+  * Create a PR
+  * Use git merge
+  * Push to official repository
+2. Clone the repository
+  * Make a branch
+  * Make some changes
+  * Stage your changes 
+  * Commit those changes
+  * Create a PR
+  * Use git rebase
+  * Push to official repository
+3. Set up an issue
+4. Pull the branch a person on your left made in 2.
+5. Pull a branch from the forked repository of the person on your right (from exercise 1.)
+6. What's wrong with those PRs? 🤔
