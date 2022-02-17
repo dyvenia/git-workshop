@@ -18,6 +18,10 @@ A simple repository for Git workshop
 - * delete local branches
 - SSH
 
+exercises
+- fork with branch, add, commit, pr, merge, push
+- clone with branch, add, commit, pr, rebase, push
+
 oh god what do i do
 - i want to pull someones pr (both)
 - i want to push a change but i forgor to create a branch
