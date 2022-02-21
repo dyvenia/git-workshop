@@ -1,1 +1,1 @@
-print("see ya")
+print("goodbye")
