@@ -37,6 +37,8 @@ As mentioned before, git has a tree-like structure 🌳 it operates on branches,
 
 You can add to remote (if you're workng on forks for isntance) by using `git remote add <name> <url>`.
 
+![git_remote](remote.png)
+
 ### Exercises:
 1. Fork this repository
   * Make a branch
