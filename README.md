@@ -5,7 +5,7 @@ Hope you'll learn something new and enjoy whatever it is that you find here ✨
 
 ### What is Git?
 Git is a version control system allowing for users to share their work (in most cases - programming) and publish it, a collaboration tool.
-Git works uses hashes in a key-value form to save every action taken on the software. Every objects has it's hash value, which Git uses to navigate to whenever a change is made.
+Git works using hashes in a key-value form to save every action taken on the software. Every object has it's hash value, which Git uses to navigate to whenever a change is made.
 The structure resembles a tree 🌳 Additionally, each user has it's own copy of the repository on their local machine (contrary to an SVN system).
 Another big difference between git and other version control systems is an access to the local history. In most cases you don't need to change your history of the files, however
 it's permitted.
