@@ -1,3 +1,3 @@
-name = input("Whats your name? ")
-age = int(input("How old are you? "))
-print(f"hello {name} {age}")
+name = input("Jo jedrek")
+print(f"hello {name}")
+
