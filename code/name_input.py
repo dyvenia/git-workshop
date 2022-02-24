@@ -1,2 +1,3 @@
-name = input("Whats your name?")
+name = input("Jo jedrek")
 print(f"hello {name}")
+
