@@ -9,4 +9,5 @@ data:
   POSTGRES_USER: postgresadmin
   POSTGRES_PASSWORD: postgres
 
-#example of configmap for postgresql 
+#example of configmap for postgresql
+#add new line 
