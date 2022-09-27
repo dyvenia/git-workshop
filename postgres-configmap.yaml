@@ -8,3 +8,5 @@ data:
   POSTGRES_DB: postgresdb
   POSTGRES_USER: postgresadmin
   POSTGRES_PASSWORD: postgres
+
+#example of configmas for postgres
