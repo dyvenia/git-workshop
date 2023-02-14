@@ -46,13 +46,14 @@ You can add to remote (if you're workng on forks for instance) by using `git rem
   * Stage your changes 
   * Commit those changes
   * Create a PR
-
+  * Request a review from a user @djagoda881
 2. Clone the repository
   * Make a branch
   * Make some changes
   * Stage your changes 
   * Commit those changes
   * Create a PR
-#### For engineering team
+  * Mark me as a reviewer 
+#### For engineering team a user @djagoda881
 3. Pull a branch from forked repository of the person on yor right
 4. Make some changes and push them to branch from 3.
