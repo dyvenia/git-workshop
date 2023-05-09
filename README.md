@@ -47,6 +47,7 @@ You can add to remote (if you're workng on forks for instance) by using `git rem
   * Commit those changes
   * Create a PR
   * Request a review from a user djagoda881
+
 2. Clone the repository
   * Make a branch
   * Make some changes
@@ -54,6 +55,8 @@ You can add to remote (if you're workng on forks for instance) by using `git rem
   * Commit those changes
   * Create a PR
   * Mark me as a reviewer a user djagoda881
-#### For engineering team 
-3. Pull a branch from forked repository of the person on yor right
-4. Make some changes and push them to branch from 3.
+
+3. Conflict 
+  * Make a new branch in git-workshop repo
+  * Go to to guess_number.py file
+  * Change variable name `my_number` to `user_number`
