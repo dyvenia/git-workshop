@@ -18,16 +18,31 @@ Remember to add tests and docstings to these functions later.
 
 4. Sort your commits.
 
-5. Push changes to github.
+5. Test the code 
+    - Go to `calculator/tests/` and run `pytest unit_tests_calculator.py`. If you don't have pytest install it using `pip install pytest`
 
-6. Create a pull request and select `djagoda881` as reviewer.
+6. Push changes to github.
 
+7. Create a pull request and select `djagoda881` as reviewer.
 
 ### Medium level tasks
 
+#### Step by step instructions
 
+1. Fork the repository.
 
+2. Create your branch where you will add changes.
 
+3. Add changes to all files. (Check the Answers tab for a list of files that need to be changed)
+
+4. Sort your commits.
+
+5. Test the code 
+    - Go to `calculator/tests/` and run `pytest unit_tests_calculator.py`. If you don't have pytest install it using `pip install pytest`
+
+6. Push changes to github.
+
+7. Create a pull request to `main` branch and select `djagoda881` as reviewer.
 ### Answers
 
 ```python
