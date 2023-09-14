@@ -14,7 +14,7 @@ Remember to add tests and docstings to these functions later.
 
 2. Create your branch where you will add changes.
 
-3. Add changes to all files. (Check the Replies tab for a list of files that need to be changed)
+3. Add changes to all files. (Check the Answers tab for a list of files that need to be changed)
 
 4. Sort your commits.
 
@@ -24,3 +24,86 @@ Remember to add tests and docstings to these functions later.
 
 
 ### Medium level tasks
+
+
+
+
+### Answers
+
+```python
+# calculator/calculator.py
+
+import math
+
+
+def add(x, y):
+    """Returns the sum of x and y."""
+    return x + y
+
+def multiply(x, y):
+    """Returns the product of x and y."""
+    return x * y
+
+def divide(x, y):
+    """Returns the result of dividing x by y."""
+    if y != 0:
+        return x / y
+    else:
+        return "Error: Division by zero"
+
+def subtract(x, y):
+    """Returns the difference between x and y."""
+    return x - y
+
+def exponentiate(x, y):
+    """Returns x raised to the power of y."""
+    return x ** y
+
+def square_root(x):
+    """Returns the square root of x."""
+    return math.sqrt(x)
+
+```
+
+```python
+# calculator/__init__.py
+
+from .calcurator import add, subtract, divide, multiply, exponentiate, square_root
+
+```
+
+```python
+# calculator/tests/unit_tests_calculator.py
+
+from calculator import add, multiply, divide, subtract, exponentiate, square_root
+
+def test_addition():
+    assert add(5, 3) == 8
+    assert add(0, 0) == 0
+    assert add(-5, 5) == 0
+
+def test_multiplication():
+    assert multiply(4, 6) == 24
+    assert multiply(0, 10) == 0
+    assert multiply(-3, 7) == -21
+
+def test_division():
+    assert divide(8, 2) == 4.0
+    assert divide(10, 5) == 2.0
+    assert divide(7, 0) == "Error: Division by zero"
+
+def test_subtraction():
+    assert subtract(10, 7) == 3
+    assert subtract(5, 5) == 0
+    assert subtract(7, 10) == -3
+
+def test_exponentiation():
+    assert exponentiate(2, 3) == 8
+    assert exponentiate(5, 0) == 1
+    assert exponentiate(3, -2) == 1/9
+    
+def test_square_root():
+    assert square_root(4) == 2
+    assert square_root(25) == 5
+    assert square_root(9) == 3
+```
