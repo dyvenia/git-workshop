@@ -23,7 +23,7 @@ Remember to add tests and docstings to these functions later.
 
 6. Push changes to github.
 
-7. Create a pull request and select `djagoda881` as reviewer.
+7. Create a pull request to `main` branch and select `djagoda881` as reviewer.
 
 ### Medium level tasks
 
