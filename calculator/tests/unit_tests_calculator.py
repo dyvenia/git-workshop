@@ -1,6 +1,6 @@
 # test_calculator.py
 
-from calculator import add, multiply, divide, subtract
+from calculator import add, multiply, divide, subtract, exponentiate, square_root
 
 def test_addition():
     assert add(5, 3) == 8
@@ -21,3 +21,13 @@ def test_subtraction():
     assert subtract(10, 7) == 3
     assert subtract(5, 5) == 0
     assert subtract(7, 10) == -3
+
+def test_exponentiation():
+    assert exponentiate(2, 3) == 8
+    assert exponentiate(5, 0) == 1
+    assert exponentiate(3, -2) == 1/9
+    
+def test_square_root():
+    assert square_root(4) == 2
+    assert square_root(25) == 5
+    assert square_root(9) == 3
