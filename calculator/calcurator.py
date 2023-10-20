@@ -1,6 +1,3 @@
-import math
-
-
 def add(x, y):
     """Returns the sum of x and y."""
     return x + y
@@ -31,4 +28,4 @@ def exponentiate(x, y):
 
 def square_root(x):
     """Returns the square root of x."""
-    return math.sqrt(x)
+    return x ** (1 / 2)
