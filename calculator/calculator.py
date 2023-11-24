@@ -19,9 +19,8 @@ def subtract(x, y):
     """Returns the difference between x and y."""
     return x - y
 
-def exponentiate (x,y):
-    return x**y
-
-def square_root (x):
-    return math.sqrt(x)
-
+def square_root(x):
+    """Returns the square root of x."""
+    return x ** (1/2)
+    
+    
