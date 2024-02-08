@@ -1,7 +1,8 @@
 ### Git Workshop
 
+"This is a change made by Román. Please, don´t be mad if I destroy something, I am learning. The only modification is this sentence."
+
 Hello 👋 
-"This is a change made by Román. Please, don´t be mad if I destroy something, I am learning."
 Welcome to Git Workshop. It's a very simple repository containing the basics of Git, some theory, good practices and exercises.
 Hope you'll learn something new and enjoy whatever it is that you find here ✨
 
