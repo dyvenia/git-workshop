@@ -1,6 +1,13 @@
 # test_calculator.py
 
-from calculator import add, multiply, divide, subtract, exponentiate, square_root
+from calculator.calculator import (
+    add,
+    multiply,
+    divide,
+    subtract,
+    exponentiate,
+    square_root,
+)
 
 
 def test_addition():
