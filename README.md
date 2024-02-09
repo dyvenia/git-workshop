@@ -3,6 +3,7 @@
 Hello 👋
 Welcome to Git Workshop. It's a very simple repository containing the basics of Git, some theory, good practices and exercises.
 Hope you'll learn something new and enjoy whatever it is that you find here ✨
+**This is a change from Patri**
 
 ### What is Git?
 Git is a version control system allowing for users to share their work (in most cases - programming) and publish it, a collaboration tool.
