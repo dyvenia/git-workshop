@@ -4,7 +4,7 @@ Hello 👋
 Welcome to Git Workshop. It's a very simple repository containing the basics of Git, some theory, good practices and exercises.
 Hope you'll learn something new and enjoy whatever it is that you find here ✨
 
-### What is Git?
+### What is Git? *prueba número un millón* 
 Git is a version control system allowing for users to share their work (in most cases - programming) and publish it, a collaboration tool.
 Git works using hashes in a key-value form to save every action taken on the software. Every object has it's hash value, which Git uses to navigate to whenever a change is made.
 The structure resembles a tree 🌳 Additionally, each user has it's own copy of the repository on their local machine (contrary to an SVN system).
