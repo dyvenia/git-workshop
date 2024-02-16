@@ -1,1 +1,8 @@
-from .calcurator import add, subtract, divide, multiply, square_root
+from calculator.calcurator import (
+    add,
+    subtract,
+    divide,
+    multiply,
+    exponentiate,
+    square_root,
+)
