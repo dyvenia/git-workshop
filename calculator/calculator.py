@@ -19,3 +19,8 @@ def divide(x, y):
 def subtract(x, y):
     """Returns the difference between x and y."""
     return x - y
+
+
+def exponentiate(x, y):
+    """Returns x raised to the power of y."""
+    return x**y
