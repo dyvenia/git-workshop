@@ -1,1 +1,1 @@
-from .calcurator import add, subtract, divide, multiply, square_root
+from .calcurator import add, subtract, divide, multiply
