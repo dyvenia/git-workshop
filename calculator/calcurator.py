@@ -23,3 +23,7 @@ def subtract(x, y):
 def square_root(x):
     """Returns the square root of x."""
     return math.sqrt(x)
+
+def exponentiate(x, y):
+    """Returns x raised to the power of y."""
+    return x ** y
