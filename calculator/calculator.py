@@ -1,3 +1,6 @@
+import math
+
+
 def add(x, y):
     """Returns the sum of x and y."""
     return x + y
@@ -24,3 +27,8 @@ def subtract(x, y):
 def exponentiate(x, y):
     """Returns x raised to the power of y."""
     return x**y
+
+
+def root_square(x):
+    """Returns the square root of x."""
+    return math.sqrt(x)
