@@ -1,3 +1,6 @@
+import math
+
+
 def add(x, y):
     """Returns the sum of x and y."""
     return x + y
@@ -16,3 +19,7 @@ def divide(x, y):
 def subtract(x, y):
     """Returns the difference between x and y."""
     return x - y
+
+def square_root(x):
+    """Returns the square root of x."""
+    return math.sqrt(x)
