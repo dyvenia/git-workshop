@@ -23,5 +23,3 @@ def subtract(x, y):
 def root_square(x):
     """Returns the square root of x."""
     return math.sqrt(x)
-
-"""abcd"""
